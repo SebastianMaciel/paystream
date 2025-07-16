@@ -103,7 +103,7 @@ export function EarningsDisplay({
 }: // monthProgress,
 EarningsDisplayProps) {
   // DEBUG: Forzar día para debug visual
-  const DEBUG_DAY: number | null = 2; // Cambia a 1, 15, 31, etc. para forzar el día
+  const DEBUG_DAY: number | null = null; // Cambia a 1, 15, 31, etc. para forzar el día
 
   // Calcular el valor máximo que se puede mostrar al final del mes
   const maxEarnings = salary;
