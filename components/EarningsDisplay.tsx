@@ -298,11 +298,11 @@ EarningsDisplayProps) {
           <Button
             onClick={onSettings}
             variant='ghost'
-            size='icon'
+            size='lg'
             aria-label='Settings'
             className='transition-colors cursor-pointer'
           >
-            <Settings className='w-6 h-6' />
+            <Settings className='w-10 h-10' />
           </Button>
         </div>
         <div className='flex flex-col items-center gap-10 px-0 w-full'>

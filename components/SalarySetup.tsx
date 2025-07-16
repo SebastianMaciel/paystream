@@ -30,7 +30,10 @@ export function SalarySetup({
   const [rate, setRate] = useState(defaultRate);
 
   return (
-    <div className='w-full max-w-[600px] p-12 flex flex-col gap-12 items-center shadow-lg border bg-card/80 transition-all duration-300 min-h-[50vh] justify-center rounded-xl'>
+    <div
+      style={{ padding: 'clamp(40px, 4vw, 10px)' }}
+      className='w-full max-w-[600px] flex flex-col gap-12 items-center shadow-lg border bg-card/80 transition-all duration-300 min-h-[50vh] justify-center rounded-xl'
+    >
       <div className='text-2xl font-semibold tracking-tight mb-4 text-center'>
         Configuración de sueldo
       </div>

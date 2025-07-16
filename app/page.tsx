@@ -78,7 +78,7 @@ export default function Home() {
     return (
       <main
         style={{
-          minHeight: '100vh',
+          paddingTop: 'clamp(1rem, 4vw, 3rem)',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
@@ -101,7 +101,7 @@ export default function Home() {
   return (
     <main
       style={{
-        minHeight: '100vh',
+        paddingTop: 'clamp(1rem, 4vw, 3rem)',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
