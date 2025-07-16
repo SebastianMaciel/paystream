@@ -1,3 +1,5 @@
+<img width="846" height="825" alt="image" src="https://github.com/user-attachments/assets/30060080-ef0b-4f50-84e8-3f8c86f5b1aa" />
+
 # PayStream
 
 PayStream es una aplicación para visualizar tus ingresos en tiempo real, con soporte para diferentes monedas y una interfaz moderna y relajada.
