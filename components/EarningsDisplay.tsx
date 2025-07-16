@@ -289,7 +289,10 @@ EarningsDisplayProps) {
             )}
           </>
         )}
-      <div className='p-12 flex flex-col gap-12 items-center shadow-lg border bg-card/80 transition-all duration-300 min-h-fit justify-center rounded-xl'>
+      <div
+        style={{ padding: 'clamp(1rem, 4vw, 3rem)' }}
+        className='flex flex-col gap-12 items-center shadow-lg border bg-card/80 transition-all duration-300 min-h-fit justify-center rounded-xl min-w-[350px]'
+      >
         <div className='flex flex-row items-center justify-between w-full px-0 pb-0'>
           <div className='text-2xl font-semibold tracking-tight'>PayStream</div>
           <Button
