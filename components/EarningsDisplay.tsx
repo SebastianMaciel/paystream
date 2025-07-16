@@ -212,9 +212,10 @@ EarningsDisplayProps) {
     currency: string,
     type: 'seg' | 'min' | 'hora'
   ) {
-    let label = type === 'seg' ? '/ seg' : type === 'min' ? '/ min' : '/ hora';
+    const label =
+      type === 'seg' ? '/ seg' : type === 'min' ? '/ min' : '/ hora';
     // Usar el mismo formateo de miles y decimales que en los montos grandes
-    let formatted = formatPerSecond(value, currency).replace(
+    const formatted = formatPerSecond(value, currency).replace(
       /([\d]+([.,][\d]+)?)/,
       (num) => {
         // Extraer parte numérica y formatear con separador de miles
